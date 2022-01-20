@@ -14,8 +14,15 @@ class ViewController: UIViewController {
 //    } forma manual para adicionar ação ao botão
 
     //forma pelo interfaceBuild (control arrasta)
-    @IBAction func adicionar(_ sender: Any) {
-    }
+    @IBOutlet var nomeTextField: UITextField!
     
+    @IBOutlet var felicidadeTextFiel: UITextField!
+    
+    @IBAction func adicionar(_ sender: Any) {
+        let nome = nomeTextField.text
+        let felicidade = felicidadeTextFiel.text
+        
+        print("comi \(nome) e fiquei com felicidade:\(felicidade)")
+    }
 }
 
