@@ -9,8 +9,8 @@ import UIKit
 
 class Item: NSObject {
     //Atributos
-    var nome: String
-    var calorias: Double
+    let nome: String
+    let calorias: Double
     //Init -  Contrutor
     init(nome: String, calorias: Double) {
         self.nome = nome
