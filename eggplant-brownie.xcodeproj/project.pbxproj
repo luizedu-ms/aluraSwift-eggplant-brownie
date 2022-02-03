@@ -13,9 +13,15 @@
 		300BBF78279991C700AEDA01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 300BBF76279991C700AEDA01 /* Main.storyboard */; };
 		300BBF7A279991C900AEDA01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 300BBF79279991C900AEDA01 /* Assets.xcassets */; };
 		300BBF7D279991C900AEDA01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 300BBF7B279991C900AEDA01 /* LaunchScreen.storyboard */; };
+		306AF5DE279EF0E5005C000A /* AdicionarItensViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306AF5DC279EF0E5005C000A /* AdicionarItensViewController.swift */; };
+		306AF5DF279EF0E5005C000A /* AdicionarItensViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 306AF5DD279EF0E5005C000A /* AdicionarItensViewController.xib */; };
 		30F59B09279B25BE000DF65E /* Refeicao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F59B08279B25BE000DF65E /* Refeicao.swift */; };
 		30F59B0B279B264F000DF65E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F59B0A279B264F000DF65E /* Item.swift */; };
 		30F59B70279B45D2000DF65E /* RefeicoesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F59B6F279B45D2000DF65E /* RefeicoesTableViewController.swift */; };
+		30FB315327A988E500C63860 /* Alerta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FB315227A988E500C63860 /* Alerta.swift */; };
+		30FB315527AAF8DA00C63860 /* RemoveRefeicaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FB315427AAF8DA00C63860 /* RemoveRefeicaoViewController.swift */; };
+		30FB315727AB62B600C63860 /* RefeicaoDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FB315627AB62B600C63860 /* RefeicaoDao.swift */; };
+		30FB315927AB66DD00C63860 /* ItemDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FB315827AB66DD00C63860 /* ItemDao.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,9 +33,15 @@
 		300BBF79279991C900AEDA01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		300BBF7C279991C900AEDA01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		300BBF7E279991C900AEDA01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		306AF5DC279EF0E5005C000A /* AdicionarItensViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdicionarItensViewController.swift; sourceTree = "<group>"; };
+		306AF5DD279EF0E5005C000A /* AdicionarItensViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdicionarItensViewController.xib; sourceTree = "<group>"; };
 		30F59B08279B25BE000DF65E /* Refeicao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Refeicao.swift; sourceTree = "<group>"; };
 		30F59B0A279B264F000DF65E /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		30F59B6F279B45D2000DF65E /* RefeicoesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefeicoesTableViewController.swift; sourceTree = "<group>"; };
+		30FB315227A988E500C63860 /* Alerta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerta.swift; sourceTree = "<group>"; };
+		30FB315427AAF8DA00C63860 /* RemoveRefeicaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveRefeicaoViewController.swift; sourceTree = "<group>"; };
+		30FB315627AB62B600C63860 /* RefeicaoDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefeicaoDao.swift; sourceTree = "<group>"; };
+		30FB315827AB66DD00C63860 /* ItemDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDao.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +91,9 @@
 			children = (
 				30F59B08279B25BE000DF65E /* Refeicao.swift */,
 				30F59B0A279B264F000DF65E /* Item.swift */,
+				30FB315227A988E500C63860 /* Alerta.swift */,
+				30FB315627AB62B600C63860 /* RefeicaoDao.swift */,
+				30FB315827AB66DD00C63860 /* ItemDao.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -88,6 +103,8 @@
 			children = (
 				300BBF74279991C700AEDA01 /* ViewController.swift */,
 				30F59B6F279B45D2000DF65E /* RefeicoesTableViewController.swift */,
+				306AF5DC279EF0E5005C000A /* AdicionarItensViewController.swift */,
+				30FB315427AAF8DA00C63860 /* RemoveRefeicaoViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -96,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				300BBF76279991C700AEDA01 /* Main.storyboard */,
+				306AF5DD279EF0E5005C000A /* AdicionarItensViewController.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -160,6 +178,7 @@
 			files = (
 				300BBF7D279991C900AEDA01 /* LaunchScreen.storyboard in Resources */,
 				300BBF7A279991C900AEDA01 /* Assets.xcassets in Resources */,
+				306AF5DF279EF0E5005C000A /* AdicionarItensViewController.xib in Resources */,
 				300BBF78279991C700AEDA01 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -171,8 +190,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30FB315327A988E500C63860 /* Alerta.swift in Sources */,
 				30F59B0B279B264F000DF65E /* Item.swift in Sources */,
 				300BBF75279991C700AEDA01 /* ViewController.swift in Sources */,
+				30FB315527AAF8DA00C63860 /* RemoveRefeicaoViewController.swift in Sources */,
+				30FB315927AB66DD00C63860 /* ItemDao.swift in Sources */,
+				30FB315727AB62B600C63860 /* RefeicaoDao.swift in Sources */,
+				306AF5DE279EF0E5005C000A /* AdicionarItensViewController.swift in Sources */,
 				300BBF71279991C700AEDA01 /* AppDelegate.swift in Sources */,
 				30F59B70279B45D2000DF65E /* RefeicoesTableViewController.swift in Sources */,
 				300BBF73279991C700AEDA01 /* SceneDelegate.swift in Sources */,
